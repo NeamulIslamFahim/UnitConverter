@@ -23,10 +23,10 @@ body {
 }
 
 .app_box {
-    width: 400px;
+    width: 340px;
     height: 300px;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
     box-sizing: border-box;
     box-shadow: 1px 2px 5px 3px slategray;
     border-radius: 20px;
@@ -34,14 +34,14 @@ body {
 
 .app_box2 {
     margin-top: 100px;
-    margin-left: 65px;
+    margin-left: 20px;
 }
 
 .C_Head {
     display: block;
     position: relative;
     top: 40px;
-    left: 120px;
+    left: 60px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: blueviolet;
