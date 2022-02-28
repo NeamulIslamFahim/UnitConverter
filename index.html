@@ -11,24 +11,22 @@
     <link rel="stylesheet" href="Mobile.css">
 
     <!----------------Desktop Stylesheet---------------------->
-    <link rel="stylesheet" media="screen and (min-width:900px)" href="Desktop.css">
+    <link rel="stylesheet" href="Desktop.css">
 
     <title>Web Length Converter</title>
 </head>
 
 <body>
-    <div class="heading">
-        <h1 class="C_Head">Length Converter</h1>
-    </div>
-    <div class="app_box col-5">
-        <!--select id="Con_Option">
+    <div class="app_box">
+        <select id="Con_Option">
+            <option value="Select Unit">Select Unit</option>
             <option value="Length Converter">Length Converter</option>
-            <option value="Weight Converter">Weight Converter</option>
-        </select-->
-
+            <option value="Mass Converter">Weight Converter</option>
+            <option value="Volume Converter">Volume Converter</option>
+        </select>
         <div class="app_box2">
             <div class="First_Portion">
-                <input type="text" name="textbox1" class="t1" id="txt1" placeholder="Enter any digit">
+                <input type="text" name="textbox1" class="t1" id="txt1" placeholder="Enter any digit" pattern=>
                 <select id="convert1">
                     <option>Select...</option>
                     <option value="kilometer">Kilometer</option>

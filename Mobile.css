@@ -1,96 +1,188 @@
 * {
     box-sizing: border-box;
-    background-color: gainsboro;
-}
-
-body {
-    width: 75%;
-}
-
-[class*="col-"] {
-    width: 100%;
-}
-
-[class*="col-"] {
-    padding: 10px;
-    padding-right: 10px;
-}
-
-.app_box::after {
-    content: '';
-    clear: both;
-    display: table;
-}
-
-.app_box {
-    width: 340px;
-    height: 300px;
-    margin-top: 50px;
-    margin-left: 10px;
-    box-sizing: border-box;
-    box-shadow: 1px 2px 5px 3px slategray;
-    border-radius: 20px;
-}
-
-.app_box2 {
-    margin-top: 100px;
-    margin-left: 20px;
-}
-
-.C_Head {
-    display: block;
-    position: relative;
-    top: 40px;
-    left: 60px;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: blueviolet;
-}
-
-.t1 {
-    text-align: center;
-    border-radius: 50px;
-    background-color: wheat;
-    font-family: 'Times New Roman';
-    font-weight: bold;
-}
-
-.t2 {
-    text-align: center;
-    border-radius: 50px;
-    background-color: wheat;
-    font-family: 'Times New Roman';
-    font-weight: bold;
-}
-
-.buttons {
-    display: flex;
-    gap: 60px;
-}
-
-button {
-    border-radius: 20px;
-    width: 80px;
-    height: 30px;
+    background-color: turquoise;
+    font-size: 14px;
     font-family: 'Lucida Sans Regular';
-    font-size: 15px;
-    font-weight: bold;
-    background-color: cornflowerblue
-}
-
-select {
-    border-radius: 20px;
-    background-color: cyan;
-    font-weight: bold;
-    border-color: darkblue;
-}
-
-option {
     font-weight: bold;
 }
 
-.buttons::after {
-    content: '';
-    clear: both;
-    display: flex;
+
+/*-----------------------------------------------------------
+        Mobile and Tab Responsive
+---------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+    .app_box {
+        position: relative;
+        top: 150px;
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px black;
+        background-color: bisque;
+        border-radius: 30px;
+    }
+    .app_box2 {
+        margin-top: 50px;
+        background-color: bisque;
+    }
+    .buttons {
+        display: flex;
+        margin-top: 50px;
+        background-color: bisque;
+        gap: 70px;
+    }
+    button {
+        border-radius: 20px;
+        width: 100px;
+        height: 30px;
+        background-color: aqua;
+        border-radius: 50px;
+    }
+    input {
+        border-radius: 20px;
+    }
+    select {
+        border-radius: 20px;
+    }
+    .First_Portion {
+        background-color: bisque;
+    }
+    .Second_Portion {
+        background-color: bisque;
+    }
+    #Con_Option {
+        width: 100%;
+        height: 30px;
+    }
+    .app_box::after {
+        content: large;
+        clear: both;
+        display: none;
+    }
+}
+
+
+/*----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 667px) {
+    .app_box {
+        position: relative;
+        top: -1px;
+        width: 100%;
+        height: 80%;
+        padding: 40px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px black;
+        background-color: bisque;
+        border-radius: 30px;
+    }
+    .app_box2 {
+        margin-top: 50px;
+        background-color: bisque;
+    }
+    .buttons {
+        display: flex;
+        margin-top: 50px;
+        background-color: bisque;
+        gap: 300px;
+    }
+    button {
+        border-radius: 20px;
+        width: 100px;
+        height: 30px;
+        background-color: aqua;
+        border-radius: 50px;
+    }
+    input {
+        border-radius: 20px;
+        width: 250px;
+        height: 24px;
+    }
+    select {
+        border-radius: 20px;
+        width: 250px;
+        height: 24px;
+    }
+    .First_Portion {
+        background-color: bisque;
+    }
+    .Second_Portion {
+        background-color: bisque;
+    }
+    #Con_Option {
+        width: 100%;
+        height: 30px;
+    }
+    .app_box::after {
+        content: large;
+        clear: both;
+        display: none;
+    }
+}
+
+
+/*----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+    .app_box {
+        position: relative;
+        top: 200px;
+        width: 100%;
+        height: 80%;
+        padding: 40px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px black;
+        background-color: bisque;
+        border-radius: 30px;
+    }
+    .app_box2 {
+        margin-top: 50px;
+        background-color: bisque;
+    }
+    .buttons {
+        display: flex;
+        margin-top: 50px;
+        background-color: bisque;
+        gap: 300px;
+    }
+    button {
+        border-radius: 20px;
+        width: 100px;
+        height: 30px;
+        background-color: aqua;
+        border-radius: 50px;
+    }
+    input {
+        border-radius: 20px;
+        width: 250px;
+        height: 24px;
+    }
+    select {
+        border-radius: 20px;
+        width: 250px;
+        height: 24px;
+    }
+    .First_Portion {
+        background-color: bisque;
+    }
+    .Second_Portion {
+        background-color: bisque;
+    }
+    #Con_Option {
+        width: 100%;
+        height: 30px;
+    }
+    .app_box::after {
+        content: large;
+        clear: both;
+        display: none;
+    }
 }
