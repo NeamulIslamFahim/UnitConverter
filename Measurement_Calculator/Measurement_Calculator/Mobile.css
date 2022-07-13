@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    background-color: turquoise;
+    font-size: 14px;
+    font-family: 'Lucida Sans Regular';
+    font-weight: bold;
+}
+
+
+/*-----------------------------------------------------------
+        Mobile and Tab Responsive
+---------------------------------------------------------------*/
+
+.app_box {
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px black;
+    background-color: bisque;
+    border-radius: 30px;
+}
+
+.app_box2 {
+    margin-top: 50px;
+    background-color: bisque;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 50px;
+    background-color: bisque;
+    gap: 70px;
+}
+
+button {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+input {
+    border-radius: 20px;
+}
+
+select {
+    border-radius: 20px;
+}
+
+.First_Portion {
+    background-color: bisque;
+}
+
+.Second_Portion {
+    background-color: bisque;
+}
+
+#Con_Option {
+    width: 100%;
+    height: 30px;
+}
+
+.app_box::after {
+    content: large;
+    clear: both;
+    display: none;
+}

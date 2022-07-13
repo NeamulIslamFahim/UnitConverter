@@ -1,0 +1,60 @@
+/*-----------------------------
+        Desktop Responsive
+---------------------------------*/
+
+@media only screen and (min-width: 1024px) {
+    .app_box {
+        position: relative;
+        top: 100px;
+        width: 35%;
+        height: 100%;
+        padding: 40px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px black;
+        background-color: bisque;
+        border-radius: 30px;
+        left: 35%;
+    }
+    .app_box2 {
+        margin-top: 50px;
+        background-color: bisque;
+    }
+    .buttons {
+        display: flex;
+        margin-top: 50px;
+        background-color: bisque;
+        gap: 160px;
+    }
+    button {
+        border-radius: 20px;
+        width: 150px;
+        height: 30px;
+        background-color: aqua;
+        border-radius: 50px;
+    }
+    input {
+        border-radius: 20px;
+        width: 190px;
+        height: 25px;
+    }
+    select {
+        border-radius: 20px;
+        width: 190px;
+        height: 25px;
+    }
+    .First_Portion {
+        background-color: bisque;
+    }
+    .Second_Portion {
+        background-color: bisque;
+    }
+    #Con_Option {
+        width: 100%;
+        height: 30px;
+    }
+    .app_box::after {
+        content: large;
+        clear: both;
+        display: none;
+    }
+}

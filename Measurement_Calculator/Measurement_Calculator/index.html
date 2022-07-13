@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Length Converter.png" type="image/x-icon">
+
+    <!----------------Mobile Stylesheet----------------------->
+    <link rel="stylesheet" href="Mobile.css">
+
+    <!----------------Desktop Stylesheet---------------------->
+    <link rel="stylesheet" href="Desktop.css">
+
+    <title>Unit Converter</title>
+</head>
+
+<body>
+    <div class="app_box">
+        <select id="Con_Option">
+            <option value="Select Unit">Select Unit</option>
+            <option value="Length Converter">Length Converter</option>
+            <option value="Length Converter">Mass Converter</option>
+        </select>
+        <div class="app_box2">
+            <div class="First_Portion">
+                <input type="text" name="textbox1" class="t1" id="txt1" placeholder="Enter any digit" pattern=>
+                <select id="convert1">
+                    <option>Select...</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="hectometer">Hectometer</option>
+                    <option value="decameter">Decameter</option>
+                    <option value="meter">Meter</option>
+                    <option value="decimeter">Decimeter</option>
+                    <option value="centimeter">Centimeter</option>
+                    <option value="milimeter">Milimeter</option>
+                </select>
+            </div>
+            <p>
+                <div class="Second_Portion ">
+                    <input type="text " name="textbox2" class="t2" id="txt2" placeholder="The result">
+                    <select id="convert2">
+                    <option>Select...</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="hectometer">Hectometer</option>
+                    <option value="decameter">Decameter</option>
+                    <option value="meter">Meter</option>
+                    <option value="decimeter">Decimeter</option>
+                    <option value="centimeter">Centimeter</option>
+                    <option value="milimeter">Milimeter</option>
+                </select>
+                </div>
+            </p>
+            <div class="buttons">
+                <button onclick="MyConvert()">Convert</button>
+                <button onclick="MyClear()">Clear</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+
+</html>
